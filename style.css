@@ -1,0 +1,11 @@
+[role=btn-container] {
+    justify-content: end;
+    display: flex;
+}
+
+[role=content]{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 80vh;
+}

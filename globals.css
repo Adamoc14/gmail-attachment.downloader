@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+  
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+img, 
+video {
+    /* object-fit: cover; */
+    image-rendering: pixelated;
+    max-width: 100vw;
+}
+
+button,
+button[role=button]{
+    appearance: none;
+    border: none;
+    padding: 1em 2.5em;
+    line-height: 2vh;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    text-align: center;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+button:hover,
+button[role=button]:hover{
+    background: #e4e4e4;
+}
+
+input[type=text],
+input[type=date],
+input[type=time],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=search],
+textarea {
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #eee;
+    padding: 1em;
+    width: 100%;
+    display: block;
+    margin: 1em 0em;
+}
+
+input[type=number] , 
+select {
+    display: block;
+    border: none;
+    margin: 1em 0em;
+    padding: 1em;
+    width: 100%;
+    background: #eee;
+}
+
+/* Heading Defaults */
+
+/* Default h1 font-size is 2.2vw or 32px */
+
+.title {
+    font-size: 2.5vw;
+}
+  
+.heading {
+    font-size: 1.8vw;
+}
+  
+  
+h2 {
+    font-size: 1.2vw;
+}
+
+h3 {
+    font-size: .9vw;
+}
+  
+h4 {
+    font-size: .75vw;
+}
+  
+p {
+    margin-top: .2em;
+}
+
+.wrapper {
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.inner {
+    padding: 2em;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gmail API Quickstart</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./globals.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://accounts.google.com/gsi/client"></script>
+    <script defer src="gapi.js" type="module"></script>
+    <script defer src="main.js" type="module"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+        <main class="inner">
+            <header role="btn-container">
+                <nav>
+                    <!--Add buttons to initiate auth sequence and sign out-->
+                    <button role="button" id="authorize_button">Authorize</button>
+                    <button role="button" id="signout_button">Sign Out</button>
+                </nav>
+            </header>
+            <section role="content">
+                <h1>Vatican voucher downloader</h1>
+                <input type="text" role="gmail-search-input" name="gmail-search-input" placeholder="Please enter your voucher number here..">
+                <pre id="content" style="white-space: pre-wrap;"></pre>
+                <button role="button" name="download-voucher-btn">Download Voucher</button>
+            </section>
+        </main>
+    </div>
+  </body>
+</html>
